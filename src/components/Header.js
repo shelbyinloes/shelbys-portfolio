@@ -2,10 +2,11 @@ import React, {Component} from "react";
 import {Row, Col} from "react-bootstrap";
 
 const header = {
-  backgroundColor: "purple",
+  backgroundColor: "rgb(127, 191, 63)",
   height: "100px"
 }
 
+// this section will stay fixed, but will become opaque
 
 class Header extends Component {
   render(){

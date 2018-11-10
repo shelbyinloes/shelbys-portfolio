@@ -8,6 +8,8 @@ const nav = {
   alignItems: "center"
 }
 
+// this section will only show on page load and on scrolling up; 
+// dissapears on scroll down
 
 class Navigation extends Component {
   render(){
