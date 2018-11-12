@@ -1,15 +1,22 @@
 import React, {Component} from "react";
 import {Row, Col} from "react-bootstrap";
-import logo_transparent from "../images/logo_transparent.png"
+import logo_transparent from "../images/logo_transparent.png";
+import ReactPlayer from 'react-player';
+import stockholm from '../images/stockholm.mp4';
+
 
 const videoContainer = {
-
+  display: "flex",
+  height: "600px",
+  justifyContent: "space-around",
+  alignItems: "center",
+  backgroundColor: "#EEE"
 }
 
-const video = {
-    height: "600px",
-    backgroundColor: "rgba(127, 63, 191, 0.9)"
-}
+// const video = {
+//     height: "200px",
+//     width: "300px"
+// }
 
 const about = {
     height: '600px',
@@ -29,9 +36,12 @@ class Video extends Component {
   render(){
     return(
       <div>
-        <Row style={videoContainer}>
-          <Col sm={7} style={video}>
-            VIDEO
+        <Row>
+          <Col sm={7} style={videoContainer}>    
+          <ReactPlayer url="https://www.youtube.com/watch?v=d-zKJCKsoWw" 
+            playing 
+
+          />
           </Col>
           <Col sm={5} style={about}>
             <img src={logo_transparent} style={shelbylogo} alt={"Shelby's logo"} />
