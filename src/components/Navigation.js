@@ -2,7 +2,7 @@ import React, {Component} from "react";
 import {Row, Col} from "react-bootstrap";
 
 const nav = {
-  backgroundColor: "pink",
+  backgroundColor: "#d16f68",
   height: "65px",
   display: "flex",
   alignItems: "center"
