@@ -2,7 +2,7 @@ import React, {Component} from "react";
 import {Row, Col} from "react-bootstrap";
 import logo_transparent from "../images/logo_transparent.png";
 import ReactPlayer from 'react-player';
-import stockholm from '../images/stockholm.mp4';
+// import stockholm from '../images/stockholm.mp4';
 
 
 const videoContainer = {
@@ -21,12 +21,18 @@ const videoContainer = {
 const about = {
     height: '600px',
     backgroundColor: "#dbc4a7",
-    display: "flex",
-    justifyContent: "space-around"
+    display: "flex inline-block",
+    justifyContent: "center",
+    alignItems: "center", 
+    textAlign: "center",
+    padding: "0px 50px",
+    color: "white",
+    fontFamily: "'PT Sans Narrow', sans-serif",
+    fontSize: "25px"
 }
 
 const shelbylogo = {
-  height: '500px',
+  height: '480px',
   paddingTop: '30px'
 }
 
@@ -44,7 +50,8 @@ class Video extends Component {
           />
           </Col>
           <Col sm={5} style={about}>
-            <img src={logo_transparent} style={shelbylogo} alt={"Shelby's logo"} />
+            <div><img src={logo_transparent} style={shelbylogo} alt={"Shelby's logo"} /></div>
+            <div>Hello World! Check out my video and page to learn more about me. Updates to my portfolio and website changes occuring weekly - check back for more!</div>
           </Col>
         </Row>
       </div>
