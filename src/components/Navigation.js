@@ -13,7 +13,7 @@ const childNav = {
   display: "flex",
   alignItems: "center",
   justifyContent: "center",
-  fontFamily: "'Rochester', cursive",
+  fontFamily: "'PT Sans Narrow', sans-serif",
   color: "white",
   fontSize: "40px"
 }

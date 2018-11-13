@@ -2,7 +2,6 @@ import React, {Component} from "react";
 import {Row, Col} from "react-bootstrap";
 
 const nav = {
-  backgroundColor: "lightBlue",
   height: "200px"
 }
 

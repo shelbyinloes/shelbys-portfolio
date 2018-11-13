@@ -2,7 +2,6 @@ import React, {Component} from "react";
 import {Row, Col} from "react-bootstrap";
 
 const contact = {
-  backgroundColor: "pink", 
   height: "300px"
 }
 
