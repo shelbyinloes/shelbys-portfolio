@@ -19,7 +19,7 @@ const videoContainer = {
 // }
 
 const about = {
-    height: '600px',
+    // height: '600px',
     backgroundColor: "#dbc4a7",
     display: "flex inline-block",
     justifyContent: "center",

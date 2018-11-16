@@ -4,7 +4,7 @@ import nameonly from '../images/nameonly.png';
 
 const header = {
   backgroundColor: "#EEE",
-  fontFamily: "'Rochester', cursive",
+  fontFamily: "'Rochester', cursive"
 }
 
 // this section will stay fixed, but will become opaque
