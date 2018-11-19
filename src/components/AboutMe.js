@@ -5,7 +5,11 @@ import Tech from "./Tech.js";
 import Work from "./Work.js";
 
 const aboutContainer = {
-  fontFamily: "'PT Sans Narrow', sans-serif"
+  fontFamily: "'PT Sans Narrow', sans-serif",
+  backgroundColor: "rgba(255, 255, 255, 0.8)",
+  margin : "100px",
+  paddingTop: "50px",
+  paddingBottom: "50px"
 }
 
 // This section will be the resume section;
