@@ -6,7 +6,6 @@ import Navigation from './components/Navigation.js';
 import Video from './components/Video.js';
 import AboutMe from './components/AboutMe.js';
 import Portfolio from './components/Portfolio.js';
-import Contact from './components/Contact.js';
 import Footer from './components/Footer.js';
 
 
@@ -29,9 +28,6 @@ class App extends Component {
           </Row>
           <Row>
             <Portfolio />
-          </Row>
-          <Row>
-            <Contact />
           </Row>
           <Row>
             <Footer />
