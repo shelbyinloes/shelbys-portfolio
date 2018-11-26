@@ -1,5 +1,5 @@
 import React, {Component} from "react";
-import {Row, Col, Grid} from "react-bootstrap";
+import {Col, Grid} from "react-bootstrap";
 
 
 const techTitle = {

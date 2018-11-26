@@ -1,5 +1,5 @@
 import React, {Component} from "react";
-import {Row, Col} from "react-bootstrap";
+// import {Row, Col} from "react-bootstrap";
 import Coverflow from "react-coverflow";
 import { StyleRoot } from "radium";
 import portCalc from "../images/portCalc.png";
@@ -7,19 +7,6 @@ import portPass from "../images/portPass.png";
 import portTic from "../images/portTic.png";
 
 
-
-const portfolio = {
-  height: "700px",
-  backgroundColor: "white"
-}
-const projectDescription = {
-  backgroundColor: "rgba(226, 152, 74, 0.85)", 
-  height: "700px"
-}
-const projects = {
-  backgroundColor: "rgba(224, 226, 74, 0.85)", 
-  height: "700px"
-}
 
 // this section will have a carousel-type motion to scroll through various projects  
 
