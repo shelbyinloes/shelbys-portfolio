@@ -1,6 +1,7 @@
 import React, {Component} from "react";
 import {Row, Col} from "react-bootstrap";
 import nameonly from '../images/nameonly.png';
+import {NavLink} from 'react-router-dom';
 
 const header = {
   backgroundColor: "#EEE",
@@ -13,6 +14,7 @@ class Header extends Component {
   render(){
     return(
       <div>
+        <NavLink to="/">
         <Row style={header}>
           <Col sm={12}>
             {/* need to get image responsive */}
@@ -20,6 +22,7 @@ class Header extends Component {
             <img src={nameonly} alt={"Shelby Inloes, Web Developer"}/>
           </Col>
         </Row>
+        </NavLink>
       </div>
     )}
 } 

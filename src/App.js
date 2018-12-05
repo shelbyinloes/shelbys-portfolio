@@ -7,13 +7,37 @@ import Video from './components/Video.js';
 import AboutMe from './components/AboutMe.js';
 import Portfolio from './components/Portfolio.js';
 import Footer from './components/Footer.js';
+import Home from './components/Home.js';
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
 
+const content = {
+  flex: 1
+}
 
 class App extends Component {
   render() {
     return (
-      <div className="mainContainer">
-        <Grid fluid>
+      <BrowserRouter>
+      <div>
+      <Grid style={content} fluid>
+          <Row>
+            <Header />
+          </Row>
+          <Row>
+            <Navigation />
+          </Row>
+        </Grid>
+        
+      <Switch>
+        <Route path='/' component={Home} exact />
+        <Route path='/intro' component={Video} />
+        <Route path='/aboutme' component={AboutMe} />
+        <Route path='/portfolio' component={Portfolio} />
+        <Route path='/contact' />
+      </Switch>
+
+      <Footer />
+        {/* <Grid fluid>
           <Row>
             <Header />
           </Row>
@@ -32,8 +56,9 @@ class App extends Component {
           <Row>
             <Footer />
           </Row>
-        </Grid>
-      </div>
+        </Grid> */}
+        </div>
+      </BrowserRouter>
     );
   }
 }

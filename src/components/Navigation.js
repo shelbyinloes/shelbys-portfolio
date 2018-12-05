@@ -1,5 +1,6 @@
 import React, {Component} from "react";
 import {Row, Col} from "react-bootstrap";
+import { NavLink } from 'react-router-dom';
 
 const nav = {
   backgroundColor: "#d16f68",
@@ -26,9 +27,18 @@ class Navigation extends Component {
     return(
       <div>
         <Row style={nav}>
-          <Col style={childNav} sm={4}>About Me</Col>
-          <Col style={childNav} sm={4}>Portfolio</Col>
-          <Col style={childNav} sm={4}>Contact</Col>
+        <NavLink to="/intro">
+            <Col style={childNav} sm={4}>Introduction</Col>
+          </NavLink>
+          <NavLink to="/aboutme">
+            <Col style={childNav} sm={4}>About Me</Col>
+          </NavLink>
+          <NavLink to="/portfolio">
+            <Col style={childNav} sm={4}>Portfolio</Col>
+          </NavLink>          
+          <NavLink to="/contact">
+            <Col style={childNav} sm={4}>Contact</Col>
+          </NavLink>
         </Row>
       </div>
     )}
