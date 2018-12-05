@@ -12,18 +12,18 @@ const foot = {
   justifyContent: "center",
   fontFamily: "'PT Sans Narrow', sans-serif",
   color: 'white',
-  fontSize: '30px'
+  fontSize: '20px'
 }
 
 const iconImg = {
-  height: '130px',
-  width: '130px',
+  height: '70px',
+  width: '70px',
   margin: '20px'
 }
 
 const copyImg = {
-  height: '40px',
-  width: '40px',
+  height: '20px',
+  width: '20px',
   margin: '20px'
 }
 

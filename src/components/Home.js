@@ -22,7 +22,7 @@ class Home extends Component {
   render(){
     return(
       <div>
-        <Grid>
+        <Grid fluid>
           <Col style={fill}>
           </Col>
         </Grid>
