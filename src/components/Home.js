@@ -1,19 +1,30 @@
 import React, {Component} from "react";
-import {Grid} from "react-bootstrap";
-import acalogo from "../images/acalogo.png";
+import {Grid, Col} from "react-bootstrap";
+import computers from "../images/computers.jpeg";
 
+const fill = {
+  display: 'flex',
+  justifyContent: 'center',
+  alignItems: 'center',
+  overflow: 'hidden',
+  background: `url(${computers}) no-repeat center center`,
+  width: '100%',
+  height: '500px'
+}
 
-
-
-// This section will be the resume section;
-// each part will show on scroll;
+// const imgStyle ={
+//   flexShrink: '0',
+//   height: '100%',
+//   width: '100%'
+// }
 
 class Home extends Component {
   render(){
     return(
       <div>
         <Grid>
-        <img src={acalogo} alt={"Shelby's logo"} />
+          <Col style={fill}>
+          </Col>
         </Grid>
       </div>
     )}
