@@ -11,16 +11,13 @@ import Home from './components/Home.js';
 import Contact from './components/Contact.js';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 
-const content = {
-  flex: 1
-}
 
 class App extends Component {
   render() {
     return (
       <BrowserRouter>
       <div>
-      <Grid style={content} fluid>
+      <Grid fluid>
           <Row>
             <Header />
           </Row>
