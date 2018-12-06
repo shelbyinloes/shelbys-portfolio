@@ -8,6 +8,7 @@ import AboutMe from './components/AboutMe.js';
 import Portfolio from './components/Portfolio.js';
 import Footer from './components/Footer.js';
 import Home from './components/Home.js';
+import Contact from './components/Contact.js';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 
 const content = {
@@ -33,7 +34,7 @@ class App extends Component {
         <Route path='/intro' component={Video} />
         <Route path='/aboutme' component={AboutMe} />
         <Route path='/portfolio' component={Portfolio} />
-        <Route path='/contact' />
+        <Route path='/contact' component={Contact} />
       </Switch>
 
       <Footer />
