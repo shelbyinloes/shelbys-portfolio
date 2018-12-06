@@ -1,6 +1,7 @@
 import React, {Component} from "react";
 import {Row, Col} from "react-bootstrap";
 import headshot from "../images/headshot.jpg";
+import Portfolio from "./Portfolio";
 
 const bold = {
     fontWeight: 'bold',
@@ -23,6 +24,10 @@ const photoCon = {
     height: '500px'
 }
 
+const photo = {
+    height: '250px'
+}
+
 class Contact extends Component {
   render(){
     return(
@@ -35,8 +40,9 @@ class Contact extends Component {
             <br></br><h4>*contact for series inquries only
             </h4>
           </Col>
-          <Col md={4} style={photoCon}>
-            <img src={headshot} alt={"Shelby's headshot"} />
+          <Col md={6} style={photoCon}>
+          <img src={headshot} style={photo} alt={"Shelby's headshot"} />
+
           </Col>
         </Row>
       </div>
