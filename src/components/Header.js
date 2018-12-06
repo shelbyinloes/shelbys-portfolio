@@ -2,11 +2,13 @@ import React, {Component} from "react";
 import {Row, Col} from "react-bootstrap";
 import nameonly from '../images/nameonly.png';
 import {NavLink} from 'react-router-dom';
+import '../App.css';
 
 const header = {
   backgroundColor: "#EEE",
   fontFamily: "'Rochester', cursive"
 }
+
 
 // this section will stay fixed, but will become opaque
 
@@ -19,7 +21,7 @@ class Header extends Component {
           <Col sm={12}>
             {/* need to get image responsive */}
             {/* need to make header sticky (react-sticky-header?) */}
-            <img src={nameonly} alt={"Shelby Inloes, Web Developer"}/>
+            <img src={nameonly} className="headerImg" alt={"Shelby Inloes, Web Developer"}/>
           </Col>
         </Row>
         </NavLink>
