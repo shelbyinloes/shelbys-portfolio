@@ -28,16 +28,14 @@ class Navigation extends Component {
       <div>
         <Row style={nav}>
           <NavLink to="/intro">
-            <Col style={childNav} sm={4}>Introduction   </Col>
+            <Col style={childNav} sm={4}>Introduction</Col>
           </NavLink>
           <NavLink to="/aboutme">
-            <Col style={childNav} sm={4}>Experience   </Col>
+            <Col style={childNav} sm={4}>Experience</Col>
           </NavLink>
-          -
           <NavLink to="/portfolio">
-            <Col style={childNav} sm={4}>Portfolio   </Col>
-          </NavLink>   
-          -       
+            <Col style={childNav} sm={4}>Portfolio</Col>
+          </NavLink>     
           <NavLink to="/contact">
             <Col style={childNav} sm={4}>Contact</Col>
           </NavLink>
