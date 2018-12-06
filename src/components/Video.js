@@ -51,7 +51,7 @@ class Video extends Component {
           </Col>
           <Col sm={5} style={about}>
             <div><img src={logo_transparent} style={shelbylogo} alt={"Shelby's logo"} /></div>
-            <div>Hello World! ***This is just a start to my portfolio. Changes/additions coming weekly. Video bio to be up by Dec 2nd.</div>
+            <div>Hello World! ***This is just a start to my portfolio. Changes/additions coming weekly. Video bio to be up by end of December.</div>
           </Col>
         </Row>
       </div>
