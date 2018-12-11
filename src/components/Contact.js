@@ -1,7 +1,6 @@
 import React, {Component} from "react";
 import {Row, Col} from "react-bootstrap";
 import headshot from "../images/headshot.jpg";
-import Portfolio from "./Portfolio";
 
 const bold = {
     fontWeight: 'bold',
