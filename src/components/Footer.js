@@ -38,9 +38,15 @@ class Footer extends Component {
         <Grid>
           <Col md={12}>
           <Row style={foot}>
-          <a href="https://github.com/shelbyinloes"><img style={iconImg} src={github} alt={"GitHub"} /></a>
-          <a href="https://www.linkedin.com/in/shelbyinloes/"><img style={iconImg} src={linkedin} alt={"LinkedIn"} /></a>
-          <a href="mailto:contact@shelbyinloes.com?subject=Hey Shelby!"><img style={iconImg} src={gmail} alt={"Gmail"} /></a>
+          <a href="https://github.com/shelbyinloes">
+            <img style={iconImg} className="mediaFooter" src={github} alt={"GitHub"} />
+          </a>
+          <a href="https://www.linkedin.com/in/shelbyinloes/">
+            <img style={iconImg} className="mediaFooter" src={linkedin} alt={"LinkedIn"} />
+          </a>
+          <a href="mailto:contact@shelbyinloes.com?subject=Hey Shelby!">
+          <img style={iconImg} className="mediaFooter" src={gmail} alt={"Gmail"} />
+          </a>
           </Row>
           </Col>
           <Col md={12} style={foot}>
