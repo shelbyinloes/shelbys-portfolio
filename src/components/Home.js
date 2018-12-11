@@ -1,12 +1,12 @@
 import React, {Component} from "react";
-import {Grid, Col} from "react-bootstrap";
+// import {Grid, Col} from "react-bootstrap";
 import computers from "../images/computers.jpeg";
 
 const fill = {
   display: 'flex',
   justifyContent: 'center',
   alignItems: 'center',
-  overflow: 'hidden',
+  // overflow: 'hidden',
   background: `url(${computers}) no-repeat center center`,
   width: '100%',
   height: '500px'
@@ -22,10 +22,8 @@ class Home extends Component {
   render(){
     return(
       <div>
-        <Grid fluid>
-          <Col style={fill}>
-          </Col>
-        </Grid>
+          <div style={fill} className="mediaHome">
+          </div>
       </div>
     )}
 } 

@@ -21,7 +21,7 @@ class Header extends Component {
           <Col sm={12}>
             {/* need to get image responsive */}
             {/* need to make header sticky (react-sticky-header?) */}
-            <img src={nameonly} className="headerImg" alt={"Shelby Inloes, Web Developer"}/>
+            <img src={nameonly} className="mediaHeader" alt={"Shelby Inloes, Web Developer"}/>
           </Col>
         </Row>
         </NavLink>

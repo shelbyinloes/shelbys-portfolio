@@ -4,10 +4,12 @@ import { NavLink } from 'react-router-dom';
 
 const nav = {
   backgroundColor: "#d16f68",
-  height: "90px",
+  fontSize: "40px",
+  // height: "90px",
   display: "flex",
   alignItems: "center",
-  justifyContent: "center"
+  justifyContent: "center",
+  padding: "10px"
 }
 
 const childNav = {
@@ -16,7 +18,7 @@ const childNav = {
   justifyContent: "center",
   fontFamily: "'PT Sans Narrow', sans-serif",
   color: "white",
-  fontSize: "40px"
+  textDecoration: "none"
 }
 
 // this section will only show on page load and on scrolling up; 
@@ -26,18 +28,18 @@ class Navigation extends Component {
   render(){
     return(
       <div>
-        <Row style={nav}>
-          <NavLink to="/intro">
-            <Col style={childNav} sm={4}>Introduction</Col>
+        <Row style={nav} className="mediaNav">
+          <NavLink style={childNav} to="/intro">
+            <Col md={4}>Introduction</Col>
           </NavLink>
-          <NavLink to="/aboutme">
-            <Col style={childNav} sm={4}>Experience</Col>
+          <NavLink style={childNav} to="/aboutme">
+            <Col md={4}>Experience</Col>
           </NavLink>
-          <NavLink to="/portfolio">
-            <Col style={childNav} sm={4}>Portfolio</Col>
+          <NavLink style={childNav} to="/portfolio">
+            <Col md={4}>Portfolio</Col>
           </NavLink>     
-          <NavLink to="/contact">
-            <Col style={childNav} sm={4}>Contact</Col>
+          <NavLink style={childNav} to="/contact">
+            <Col md={4}>Contact</Col>
           </NavLink>
         </Row>
       </div>
