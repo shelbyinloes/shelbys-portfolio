@@ -2,7 +2,12 @@ body {
     background-color: #EEE
 }
 
-@media only screen and (max-width: 810px) {
+.techSpacing > li {
+    margin: 7px;
+    font-size: 15px;
+}
+
+@media only screen and (max-width: 890px) {
     .mediaHeader {
         width: 100%;
         margin: 0 auto;
@@ -22,5 +27,25 @@ body {
         height: 200px !important;
         margin: 20px !important;
         width: 90% !important;
+    }
+
+    .mediaAbout, .mediaIntro {
+        padding: 10px !important;
+        margin: 10px !important;
+    }
+
+    .mediaContactPhoto {
+        height: 300px !important;
+    }
+
+}
+
+@media only screen and (max-width: 550px) {
+    .mediaNav {
+        font-size: 20px !important;
+    }
+
+    .mediaContact > h2 {
+        font-size: 25px !important;
     }
 }
