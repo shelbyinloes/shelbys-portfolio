@@ -7,7 +7,7 @@ import Work from "./Work.js";
 const aboutContainer = {
   fontFamily: "'PT Sans Narrow', sans-serif",
   backgroundColor: "rgba(255, 255, 255, 0.8)",
-  margin : "100px",
+  margin : "60px",
   paddingTop: "50px",
   paddingBottom: "50px"
 }
@@ -18,16 +18,16 @@ const aboutContainer = {
 class AboutMe extends Component {
   render(){
     return(
-      <div style={aboutContainer}>
-        <Col>
-          <Row>
-            <Education />
-          </Row>
+      <div>
+        <Col className="mediaAbout" style={aboutContainer}>
           <Row>
             <Tech />
-          </Row>   
+          </Row>
           <Row>
             <Work />
+          </Row>   
+          <Row>
+            <Education />
           </Row>   
         </Col>
 
