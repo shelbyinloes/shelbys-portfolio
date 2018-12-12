@@ -32,14 +32,14 @@ class Contact extends Component {
     return(
       <div>
         <Row>
-          <Col mdOffset={2} md={4} style={conCon}>    
+          <Col className="mediaContact" mdOffset={2} md={4} style={conCon}>    
             <h2 style={bold}>E-mail:</h2><h2 style={info}>shelbyinloes@gmail.com</h2>
             <h2 style={bold}>LinkedIn:</h2><h2 style={info}>www.linkedin.com/in/shelbyinloes</h2>
             <h2 style={bold}>GitHub:</h2><h2 style={info}>www.github.com/shelbyinloes</h2>
             <br></br><h4>*contact for series inquries only
             </h4>
           </Col>
-          <Col md={6} style={photoCon}>
+          <Col className="mediaContactPhoto" md={6} style={photoCon}>
           <img src={headshot} style={photo} alt={"Shelby's headshot"} />
 
           </Col>
