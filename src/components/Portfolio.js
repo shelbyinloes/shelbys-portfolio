@@ -1,10 +1,7 @@
 import React, {Component} from "react";
-// import {Row, Col} from "react-bootstrap";
 import Coverflow from "react-coverflow";
 import { StyleRoot } from "radium";
-// import portCalc from "../images/portCalc.png";
-// import portPass from "../images/portPass.png";
-// import portTic from "../images/portTic.png";
+import weather from "../images/weather.png";
 import portGit from "../images/portGit.png";
 import calligraphy from "../images/calligraphy.png";
 
@@ -38,7 +35,7 @@ class Portfolio extends Component {
           >
             <img src={portGit} alt={"Shelby's GitHub"} data-action="https://github.com/shelbyinloes" />
             <img src={calligraphy} alt={"Canvas Calligraphy"} data-action="https://shelbyinloes.github.io/calligraphy/" />
-            {/* <img src={portCalc} alt={"Simple Calculator"} data-action="https://codepen.io/shelbyinloes/pen/qVXPpL?editors=1010" /> */}
+            <img src={weather} alt={"Weather Finder"} data-action="https://shelbyinloes.github.io/WeatherAPI/" />
           </Coverflow>
         </StyleRoot>
       </div>
