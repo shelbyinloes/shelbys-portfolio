@@ -6,6 +6,7 @@ import { StyleRoot } from "radium";
 // import portPass from "../images/portPass.png";
 // import portTic from "../images/portTic.png";
 import portGit from "../images/portGit.png";
+import calligraphy from "../images/calligraphy.png";
 
 const portTitle = {
   textAlign: "center",
@@ -36,7 +37,7 @@ class Portfolio extends Component {
             }}
           >
             <img src={portGit} alt={"Shelby's GitHub"} data-action="https://github.com/shelbyinloes" />
-            {/* <img src={portPass} alt={"Password Strength Meter"} data-action="https://codepen.io/shelbyinloes/pen/zpzQMr" /> */}
+            <img src={calligraphy} alt={"Canvas Calligraphy"} data-action="https://shelbyinloes.github.io/calligraphy/" />
             {/* <img src={portCalc} alt={"Simple Calculator"} data-action="https://codepen.io/shelbyinloes/pen/qVXPpL?editors=1010" /> */}
           </Coverflow>
         </StyleRoot>
