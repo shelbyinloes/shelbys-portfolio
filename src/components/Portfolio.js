@@ -3,6 +3,7 @@ import Coverflow from "react-coverflow";
 import { StyleRoot } from "radium";
 import weather from "../images/weather.png";
 import portGit from "../images/portGit.png";
+import lamp from "../images/lamp.png";
 import calligraphy from "../images/calligraphy.png";
 
 const portTitle = {
@@ -34,6 +35,7 @@ class Portfolio extends Component {
             }}
           >
             <img src={portGit} alt={"Shelby's GitHub"} data-action="https://github.com/shelbyinloes" />
+            <img src={lamp} alt={"Widget Workshop"} data-action="https://widgetworkshop.netlify.com" />
             <img src={calligraphy} alt={"Canvas Calligraphy"} data-action="https://shelbyinloes.github.io/calligraphy/" />
             <img src={weather} alt={"Weather Finder"} data-action="https://shelbyinloes.github.io/WeatherAPI/" />
           </Coverflow>
