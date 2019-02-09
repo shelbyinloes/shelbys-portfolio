@@ -5,6 +5,8 @@ import weather from "../images/weather.png";
 import portGit from "../images/portGit.png";
 import lamp from "../images/lamp.png";
 import calligraphy from "../images/calligraphy.png";
+import mochi from "../images/mochiAustin.png";
+
 
 const portTitle = {
   textAlign: "center",
@@ -38,6 +40,7 @@ class Portfolio extends Component {
             <img src={lamp} alt={"Widget Workshop"} data-action="https://widgetworkshop.netlify.com" />
             <img src={calligraphy} alt={"Canvas Calligraphy"} data-action="https://shelbyinloes.github.io/calligraphy/" />
             <img src={weather} alt={"Weather Finder"} data-action="https://shelbyinloes.github.io/WeatherAPI/" />
+            <img src={mochi} alt={"Mochi Austin"} data-action="https://mochi-austin.netlify.com" />          
           </Coverflow>
         </StyleRoot>
       </div>
